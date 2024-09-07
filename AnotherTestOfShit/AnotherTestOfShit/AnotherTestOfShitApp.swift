@@ -25,7 +25,7 @@ struct AnotherTestOfShitApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CustomShapeView()
         }
         .modelContainer(sharedModelContainer)
     }
